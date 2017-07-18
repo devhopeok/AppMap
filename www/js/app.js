@@ -8,15 +8,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.module', 'st
 
 .run(function($ionicPlatform, $rootScope, $state) {
     $ionicPlatform.ready(function() {
-        if (cordova.platformId === 'ios' && window.cordova && window.cordova.plugins.Keyboard) {
-            cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-            cordova.plugins.Keyboard.disableScroll(true);
+        if (ionic.Platform.device() === 'ios' && window.cordova && window.cordova.plugins.Keyboard) {
+            window.cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+            window.cordova.plugins.Keyboard.disableScroll(true);
         }
 
         if (window.StatusBar) {
             StatusBar.styleDefault();
         }
-        
+
         console.log("tyep of: " + typeof window.ga);
 
         if (typeof window.ga !== "undefined") {

@@ -1,0 +1,46 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-calendar": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-google-analytics": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-settings-hook": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.micronetonline.greenvalleycommunity"
+        }
+    }
+}
